@@ -1,0 +1,42 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.organization.mdm.it.hp.com/">
+   <soapenv:Header>
+      <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:Username>hpit:w-mdcp-mdm-itg</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">1jtqneqyA#</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:customSearchLookupService>
+         <!--Optional:-->
+         <addressLine1>?</addressLine1>
+         <!--Optional:-->
+         <addressLine2>?</addressLine2>
+         <!--Optional:-->
+         <addressLine3>?</addressLine3>
+         <!--Optional:-->
+         <characterScriptCode>?</characterScriptCode>
+         <!--Optional:-->
+         <city>?</city>
+         <!--Optional:-->
+         <country>?</country>
+         <!--Optional:-->
+         <customerId>?</customerId>
+         <!--Optional:-->
+         <dunsId>?</dunsId>
+         <!--Optional:-->
+         <organizationId>?</organizationId>
+         <!--Optional:-->
+         <organizationName>?</organizationName>
+         <!--Optional:-->
+         <postalCode>?</postalCode>
+         <!--Optional:-->
+         <region>?</region>
+         <!--Optional:-->
+         <siteId>?</siteId>
+         <!--Optional:-->
+         <siteInstanceId>?</siteInstanceId>
+      </web:customSearchLookupService>
+   </soapenv:Body>
+</soapenv:Envelope>

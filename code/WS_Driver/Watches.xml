@@ -1,0 +1,9 @@
+﻿<Properties>
+  <WatchEntry0 value="oWinHttp.ResponseText" />
+  <WatchEntry1 value="sWebServiceURL" />
+  <WatchEntry2 value="sSOAPAction" />
+  <WatchEntry3 value="DBPassword" />
+  <WatchEntry4 value="DBPassword" />
+  <WatchEntry5 value="&quot;Provider=OraOLEDB.Oracle; User Id= &quot;+ DBUser +&quot;; Password=&quot;+ DBPassword +&quot;; Data Source=&quot;+DBName" />
+  <WatchEntry6 value="objCn.State" />
+</Properties>

@@ -1,0 +1,22 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:req="http://request.accessor.businessRelationship.mdm.it.hp.com">
+   <soapenv:Header>
+      <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:Username>hpit:w-mdcp-mdm-itg</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">1jtqneqyA#</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <req:BusinessRelationshipReadObjectRequest>
+         <!--Optional:-->
+         <req:ShowExtended>false</req:ShowExtended>
+         <!--You have a CHOICE of the next 5 items at this level-->
+         <req:OrganizationID>?</req:OrganizationID>
+         <req:BusinessRelationshipTypeCode>?</req:BusinessRelationshipTypeCode>
+         <req:BusinessRelationshipId>?</req:BusinessRelationshipId>
+         <req:BusinessRelationshipAppliesTo>?</req:BusinessRelationshipAppliesTo>
+         <req:BusinessRelationshipUnitName>?</req:BusinessRelationshipUnitName>
+      </req:BusinessRelationshipReadObjectRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
